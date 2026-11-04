@@ -1,0 +1,17 @@
+{
+  "name": "l3_ajs",
+  "version": "1.0.0",
+  "description": "Лабораторная №3: асинхронный JavaScript — callbacks, promises, async/await на JSONPlaceholder",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "callbacks": "node index.js callbacks",
+    "promises": "node index.js promises",
+    "async": "node index.js async",
+    "event-loop": "node src/eventLoop.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
